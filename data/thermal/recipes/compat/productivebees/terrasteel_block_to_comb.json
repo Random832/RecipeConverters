@@ -1,0 +1,22 @@
+{
+    "type": "thermal:press",
+    "input": [
+        {
+            "item": "productivebees:comb_terrasteel"
+        },
+        {
+            "item": "thermal:press_unpacking_die"
+        }
+    ],
+    "result": {
+        "item": "productivebees:honeycomb_terrasteel",
+        "count": 4
+    },
+    "energy": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "productivebees"
+        }
+    ]
+}

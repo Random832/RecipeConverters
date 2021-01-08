@@ -1,0 +1,19 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "tag": "forge:fishes"
+    },
+    "result": [
+        {
+            "item": "pamhc2foodcore:groundfishitem",
+            "count": 1
+        }
+    ],
+    "energy": 400,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ]
+}
